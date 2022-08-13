@@ -1,0 +1,34 @@
+.page {
+    background-color: #fff;
+    color: #212121;    
+}
+.list {
+list-style: none;
+}
+
+/* блакитний текст #2196F*/
+ /* білий текст #FFFFFF*/
+ /* чорний текст  #212121*/
+ /* сірий текст УВАГА ПУНКТУАЬНІСТЬ ПЛАНУВАННЯ СУЧАСНІ #757575 */
+ /* ФУТЕР МЕЙЛ і ТЕЛ rgba (255, 255, 255, 0.6);*/
+ /* background blue КНОПКА #2196F3 */
+
+ /* ФОН БІЛИЙ #FFFFFF */
+ /* ФОН ТЕМНО-СІРИЙ  #2F303A*/
+ /* ФОН СІРИЙ #F5F4FA */
+
+ .logo {
+    color: #2196F3; 
+ }
+ 
+
+ /* site nav */
+ .site-nav .link { color: #212121;
+ }
+ .site-nav .studio {
+    color: #2196F3;
+ }
+ .site-nav .studio:focus {
+    color: #212121;
+ }
+ /* auth nav */
