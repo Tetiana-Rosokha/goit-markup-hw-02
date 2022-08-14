@@ -1,34 +1,167 @@
-.page {
-    background-color: #fff;
-    color: #212121;    
+:root {
+   --primary-text-color: #212121;
+   --minor-text-color:#757575 ;
+   --accent-color:#2196F3;
+   --white-color: #FFFFFF;
+   --primary-bg-color:#FFFFFF;
+   --minor-bg-color: #2F303A;
+   --third-bg-color:#F5F4FA;
+}
+
+/* body */
+.body {
+   color: var(--primary-text-color);
+   background-color: var(--primary-bg-color);
+   font-family: 'Roboto', sans-serif;    
 }
 .list {
 list-style: none;
 }
 
-/* блакитний текст #2196F*/
- /* білий текст #FFFFFF*/
- /* чорний текст  #212121*/
- /* сірий текст УВАГА ПУНКТУАЬНІСТЬ ПЛАНУВАННЯ СУЧАСНІ #757575 */
- /* ФУТЕР МЕЙЛ і ТЕЛ rgba (255, 255, 255, 0.6);*/
- /* background blue КНОПКА #2196F3 */
-
- /* ФОН БІЛИЙ #FFFFFF */
- /* ФОН ТЕМНО-СІРИЙ  #2F303A*/
- /* ФОН СІРИЙ #F5F4FA */
-
+ /* logo */
  .logo {
-    color: #2196F3; 
+    color: var(--accent-color);
+    background-color:var(--white-color);
+      font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 31px;
+      letter-spacing: 0.03em;
  }
  
 
  /* site nav */
- .site-nav .link { color: #212121;
- }
  .site-nav .studio {
-    color: #2196F3;
+    color: var(--accent-color);
+      font-family: 'Roboto';
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+      
  }
  .site-nav .studio:focus {
-    color: #212121;
+    color: var(--primary-text-color);
  }
+.site-nav .portfolio-link {
+   color: var(--primary-text-color);
+      font-family: 'Roboto';
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+}
+.site-nav .contact-link {
+   color: var(--primary-text-color);
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.02em;
+}
  /* auth nav */
+.auth-nav .mail-list {
+   color: var(--accent-color);
+      font-family: 'Roboto';
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;    
+}
+.auth-nav .mail-list:focus {
+   color: var(--primary-text-color);
+}
+
+.auth-nav .tel-list {
+   color: var(--minor-text-color)
+      font-family: 'Roboto';
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+}
+/* section */
+ .section-title {
+   color: var(--primary-text-color);
+ }
+
+ /* hero */
+ .hero {
+   background-color: var(--minor-bg-color);
+ }
+ .hero-title {
+   color: var(--white-color);
+ }
+ .hero .cursor {
+      background: var(--accent-color);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+ }
+
+ /* feauter */
+ .feauter {
+   background-color: var(--primary-bg-color);
+ }
+ .feature-list .title {
+   color: var(--primary-text-color);
+ }
+ .feature-list .paragraph {
+   color: var(--minor-text-color);
+ }
+
+/* work */
+.work-section {
+   background-color: var(--primary-bg-color);
+}
+.work-list .title {
+   color: var(--primary-text-color);
+}
+
+/* comand */
+.comand-section {
+background-color: var(--third-bg-color);
+}
+
+.comand-section .title {
+   color: var(--primary-text-color);
+}
+.comand-section .paragraph {
+   color: var(--minor-text-color);
+}
+
+/* adress */
+.adress {
+   background-color: var(--minor-bg-color);
+}
+.adress .title {
+   color: var(--accent-color);
+   font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 31px;
+}
+.adress .adress-list {
+   color: var(--white-color);
+   font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+}
+.adress .adress-mail {
+   color: rgba(255, 255, 255, 0.6);
+   font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+}
+.adress .adress-tel {
+   color: rgba(255, 255, 255, 0.6);
+   font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+}
