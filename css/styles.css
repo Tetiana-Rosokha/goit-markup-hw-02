@@ -84,7 +84,7 @@
 
  /* auth nav */
 .auth-nav .mail-list {
-   color: var(--accent-color);
+   color: #212121;
    font-family: 'Roboto';
    font-weight: 500;
    font-size: 14px;
@@ -93,11 +93,11 @@
    text-decoration: none;    
 }
 .auth-nav .mail-list:focus {
-   color: var(--primary-text-color);
+   color: #2196F3;
 }
 
 .auth-nav .tel-list {
-   color: var(--minor-text-color);
+   color: #757575;
    font-family: 'Roboto';
    font-weight: 500;
    font-size: 14px;
@@ -119,14 +119,26 @@
    background-color: var(--minor-bg-color);
  }
  .hero-title {
-   color: var(--white-color);
+   color: #FFFFFF;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 60px;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
  }
  .hero .cursor {
-   color: var(--white-color);
-   background: var(--accent-color);
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-   border-radius: 4px;
-   cursor: pointer;
+   color: #FFFFFF;
+   background: #2196F3;
+   font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 0.06em;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
  }
  
  /* feauter */
@@ -165,15 +177,14 @@
    list-style-type: none;
 }
 
-.work-list .work-title {
-   color: var(--primary-text-color);
+.work-section .work-title {
+   color: #212121;
    font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 36px;
-   line-height: 42px;
-   text-align: center;
-   letter-spacing: 0.03em;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      letter-spacing: 0.03em;
 }
 
 /* comand */
@@ -190,7 +201,7 @@
    line-height: 42px;
    letter-spacing: 0.03em;
 }
-.comand-section .title {
+.comand-section .title .list .title{
    color: var(--primary-text-color);
    font-family: 'Roboto';
    font-style: normal;
@@ -269,7 +280,7 @@
    text-decoration: none;
 }
 .adress .adress-mail:hover {
-   color: var(--accent-color);
+   color: #2196F3;
 }
 
 
@@ -283,7 +294,7 @@
    text-decoration: none;
 }
 .adress .adress-tel:hover {
-   color: var(--primary-text-color);
+   color: #2196F3;
 }
 
 /* portfolio.html */
@@ -306,6 +317,12 @@
    font-size: 16px;
    line-height: 26px;
    letter-spacing: 0.03em;
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+   border-radius: 4px;
+}
+
+.main .cursor-point:hover {
+   color: #000000;
 }
 
 .main .cursor {
@@ -316,6 +333,11 @@
    font-size: 16px;
    line-height: 26px;
    letter-spacing: 0.03em;
+   cursor: pointer;
+}
+.main .cursor:hover {
+   background: #2196F3;
+
 }
 
 .main .discription {
@@ -325,17 +347,6 @@
    font-size: 16px;
    line-height: 30px;
    letter-spacing: 0.03em;
-}
-
-
-.list .title {
-   color: var(--primary-text-color);
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 18px;
-   line-height: 36px;
-   letter-spacing: 0.06em;  
 }
 
 .list .discription {
