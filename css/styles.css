@@ -45,7 +45,6 @@
  /* site nav */
  .site-nav .studio {
     color: var(--accent-color);
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -58,7 +57,6 @@
  }
 .site-nav .portfolio-link {
    color: var(--primary-text-color);
-   font-family: 'Roboto';
    font-weight: 500;
    font-size: 14px;
    line-height: 16px;
@@ -71,7 +69,6 @@
 
 .site-nav .contact-link {
    color: var(--primary-text-color);
-   font-family: 'Roboto';
    font-weight: 500;
    font-size: 14px;
    line-height: 16px;
@@ -84,8 +81,7 @@
 
  /* auth nav */
 .auth-nav .mail-list {
-   color: #212121;
-   font-family: 'Roboto';
+   color: #757575;
    font-weight: 500;
    font-size: 14px;
    line-height: 16px;
@@ -95,10 +91,12 @@
 .auth-nav .mail-list:focus {
    color: #2196F3;
 }
+.auth-nav .mail-list:hover {
+   color: #2196F3;
+}
 
 .auth-nav .tel-list {
    color: #757575;
-   font-family: 'Roboto';
    font-weight: 500;
    font-size: 14px;
    line-height: 16px;
@@ -106,7 +104,7 @@
    text-decoration: none;
 }
 .auth-nav .tel-list:hover {
-   color: var(--primary-text-color);
+   color: #2196F3;
 }
 
 /* section */
@@ -120,7 +118,6 @@
  }
  .hero-title {
    color: #FFFFFF;
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 900;
    font-size: 44px;
@@ -131,7 +128,6 @@
  .hero .cursor {
    color: #FFFFFF;
    background: #2196F3;
-   font-family: 'Roboto';
       font-style: normal;
       font-weight: 700;
       font-size: 16px;
@@ -139,6 +135,7 @@
       letter-spacing: 0.06em;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       border-radius: 4px;
+      cursor: pointer;
  }
  
  /* feauter */
@@ -147,7 +144,6 @@
  }
  .feature-list .title {
    color: var(--primary-text-color);
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 700;
    font-size: 14px;
@@ -157,7 +153,6 @@
  }
  .feature-list .paragraph {
    color: var(--minor-text-color);
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
@@ -179,7 +174,6 @@
 
 .work-section .work-title {
    color: #212121;
-   font-family: 'Roboto';
       font-style: normal;
       font-weight: 700;
       font-size: 36px;
@@ -194,7 +188,6 @@
 
 .comand-section .title-team {
    color: var(--primary-text-color);
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 700;
    font-size: 36px;
@@ -203,7 +196,6 @@
 }
 .comand-section .title .list .title{
    color: var(--primary-text-color);
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -213,7 +205,6 @@
 
 .comand-section .paragraph {
    color: var(--minor-text-color);
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
@@ -259,7 +250,6 @@
 }
 .adress .adress-list {
    color: var(--white-color);
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
@@ -272,7 +262,6 @@
 
 .adress .adress-mail {
    color: rgba(255, 255, 255, 0.6);
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
@@ -286,7 +275,6 @@
 
 .adress .adress-tel {
    color: rgba(255, 255, 255, 0.6);
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
@@ -300,7 +288,6 @@
 /* portfolio.html */
 
 .main .list {
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -311,7 +298,6 @@
 .main .cursor-point {
    color: var(--white-color);
    background-color: #2196F3;
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -319,6 +305,7 @@
    letter-spacing: 0.03em;
    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
    border-radius: 4px;
+   cursor: pointer;
 }
 
 .main .cursor-point:hover {
@@ -327,7 +314,6 @@
 
 .main .cursor {
    color: var(--primary-text-color);
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -342,7 +328,6 @@
 
 .main .discription {
    color: var(--minor-text-color);
-   font-family: 'Roboto';
    font-weight: 400;
    font-size: 16px;
    line-height: 30px;
@@ -351,7 +336,6 @@
 
 .list .discription {
    color: var(--minor-text-color);
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
