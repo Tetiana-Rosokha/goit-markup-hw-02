@@ -194,8 +194,8 @@
    line-height: 42px;
    letter-spacing: 0.03em;
 }
-.comand-section .title .list .title{
-   color: var(--primary-text-color);
+.comand-section .title-personal {
+   color: #212121;
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -296,8 +296,8 @@
 }
 
 .main .cursor-point {
-   color: var(--white-color);
-   background-color: #2196F3;
+   color: #212121;
+   background-color: #F5F4FA;
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -309,21 +309,8 @@
 }
 
 .main .cursor-point:hover {
-   color: #000000;
-}
-
-.main .cursor {
-   color: var(--primary-text-color);
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 26px;
-   letter-spacing: 0.03em;
-   cursor: pointer;
-}
-.main .cursor:hover {
-   background: #2196F3;
-
+   color: #FFFFFF;
+   background-color: #2196F3;
 }
 
 .main .discription {
@@ -332,6 +319,15 @@
    font-size: 16px;
    line-height: 30px;
    letter-spacing: 0.03em;
+}
+
+.list-title {
+   color: #212121;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 36px;
+   letter-spacing: 0.06em;
 }
 
 .list .discription {
