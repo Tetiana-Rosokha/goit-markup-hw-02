@@ -43,20 +43,35 @@
  
 
  /* site nav */
- .site-nav .studio {
-    color: var(--accent-color);
+ .site-nav .studio-nav {
+    color: #2196F3;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    text-decoration: none;
-      
+    text-decoration: none;     
  }
- .site-nav .studio:focus {
+
+ .site-nav .studio-nav:focus {
     color: var(--primary-text-color);
  }
+
+ .site-nav .studio-portfolio {
+   color: #212121;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.02em;
+   text-decoration: none;
+ }
+
+ .site-nav .studio-portfolio:hover {
+   color: #2196F3;
+ }
+
 .site-nav .portfolio-link {
-   color: var(--primary-text-color);
+   color: #212121;
    font-weight: 500;
    font-size: 14px;
    line-height: 16px;
@@ -65,6 +80,16 @@
 }
 .site-nav .portfolio-link:hover {
    color: var(--accent-color)
+}
+
+.site-nav .portfolio {
+   color: #2196F3;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.02em;
+   text-decoration: none;
 }
 
 .site-nav .contact-link {
